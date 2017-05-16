@@ -13,8 +13,8 @@
 
 @property (nonatomic, readonly) UILabel *floatingLabel;
 
-@property (nonatomic,assign) CGFloat floatingLabelOffset UI_APPEARANCE_SELECTOR;
-@property (nonatomic, strong) UIFont *floatingFont UI_APPEARANCE_SELECTOR;
-@property (nonatomic, strong) UIColor *floatingColor UI_APPEARANCE_SELECTOR;
+@property (nonatomic,assign) IBInspectable CGFloat floatingLabelOffset UI_APPEARANCE_SELECTOR;
+@property (nonatomic, strong) IBInspectable UIFont *floatingFont UI_APPEARANCE_SELECTOR;
+@property (nonatomic, strong) IBInspectable UIColor *floatingColor UI_APPEARANCE_SELECTOR;
 
 @end
